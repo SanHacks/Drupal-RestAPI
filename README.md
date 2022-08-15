@@ -93,69 +93,69 @@ filter[taxonomy_term--tags][condition][value][]=CSS
 
 Response/Update body
 
-{
-    "data": {
-        "type": "node--cellphones",
-        "id": "0a447172-6a3a-4a74-8ae6-aec0955b8f40",
-        "links": {
-            "self": "http://fillthegaps.xyz/accenture/jsonapi/node/cellphones0a447172-6a3a-4a74-8ae6-aec0955b8f40"
-        },
-        "attributes": {
-            "drupal_internal__nid": 1,
-            "drupal_internal__vid": 1,
-            "langcode": "en",
-            "status": true,
-            "drupal_internal__title": "Phone name",
-            "uid": "0a447172-6a3a-4a74-8ae6-aec0955b8f40",
-            "created": "2018-12-07T15:22:37+00:00",
-            "changed": "2018-12-07T15:22:37+00:00",
-            "promote": false,
-            "sticky": false,
-            "default_langcode": true,
-            "revision_translation_affected": true,
-            "moderation_state": "published",
-            "path": {
-                "alias": "/node/1",
-                "pid": null,
-                "langcode": "en"
-            },
-            "content_translation_source": null,
-            "content_translation_outdated": false,
-            "title": "Phone name",
-            "body": {
-                "value": "Phone updated description",
-                "format": "basic_html",
-                "processed": "Phone updated description"
-            },
-            "field_image": {
-                " alt": "",
-                " title": "",
-                " width": null,
-                " height": null,
-                " target_id": null,
-                " target_revision_id": null
-            },
-            "field_tags": [],
-            "field_sku": "Phone updated sku",
-            "field_price": "Phone updated price",
-            "uid": {
-                "target_id": "0a447172-6a3a-4a74-8ae6-aec0955b8f40",
-                "target_type": "user",
-                "target_uuid": "0a447172-6a3a-4a74-8ae6-aec0955b8f40",
-                "url": "http://example.com/user/1"
-            },
-            "links": {
-                "self": {
-                    "href": "http://fillthegaps.xyz/accenture/jsonapi/node/cellphones0a447172-6a3a-4a74-8ae6-aec0955b8f40?resourceVersion=id%3A1"
-                },
-                "type": {
-                    "href": "http://fillthegaps.xyz/accenture/jsonapi/node/cellphones?resourceVersion=id%3A1"
-                },
-                "uid": {
-                    "href": "http://fillthegaps.xyz/jsonapi/user/sifhufhi/0a447172-6a3a-4a74-8ae6-aec0955b8f40?resourceVersion=id%3A1"
-                }
-            }
-        }
-    }
-}
-The "id" is required. Add the attributes that should be updated.
+{<br>
+    "data": {<br>
+        "type": "node--cellphones",<br>
+        "id": "0a447172-6a3a-4a74-8ae6-aec0955b8f40",<br>
+        "links": {<br>
+            "self": "http://fillthegaps.xyz/accenture/jsonapi/node/cellphones0a447172-6a3a-4a74-8ae6-aec0955b8f40"<br>
+        },<br>
+        "attributes": {<br>
+            "drupal_internal__nid": 1,<br>
+            "drupal_internal__vid": 1,<br>
+            "langcode": "en",<br>
+            "status": true,<br>
+            "drupal_internal__title": "Phone name",<br>
+            "uid": "0a447172-6a3a-4a74-8ae6-aec0955b8f40",<br>
+            "created": "2018-12-07T15:22:37+00:00",<br>
+            "changed": "2018-12-07T15:22:37+00:00",<br>
+            "promote": false,<br>
+            "sticky": false,<br>
+            "default_langcode": true,<br>
+            "revision_translation_affected": true,<br>
+            "moderation_state": "published",<br>
+            "path": {<br>
+                "alias": "/node/1",<br>
+                "pid": null,<br>
+                "langcode": "en"<br>
+            },<br>
+            "content_translation_source": null,<br>
+            "content_translation_outdated": false,<br>
+            "title": "Phone name",<br>
+            "body": {<br>
+                "value": "Phone updated description",<br>
+                "format": "basic_html",<br>
+                "processed": "Phone updated description"<br>
+            },<br>
+            "field_image": {<br>
+                " alt": "",<br>
+                " title": "",<br>
+                " width": null,<br>
+                " height": null,<br>
+                " target_id": null,<br>
+                " target_revision_id": null<br>
+            },<br>
+            "field_tags": [],<br>
+            "field_sku": "Phone updated sku",<br>
+            "field_price": "Phone updated price",<br>
+            "uid": {<br>
+                "target_id": "0a447172-6a3a-4a74-8ae6-aec0955b8f40",<br>
+                "target_type": "user",<br>
+                "target_uuid": "0a447172-6a3a-4a74-8ae6-aec0955b8f40",<br>
+                "url": "http://fillthegaps.xyz/accenture/jsonapi/user/1"<br>
+            },<br>
+            "links": {<br>
+                "self": {<br>
+                    "href": "http://fillthegaps.xyz/accenture/jsonapi/node/cellphones0a447172-6a3a-4a74-8ae6-aec0955b8f40?resourceVersion=id%3A1"<br>
+                },<br>
+                "type": {<br>
+                    "href": "http://fillthegaps.xyz/accenture/jsonapi/node/cellphones?resourceVersion=id%3A1"<br>
+                },<br>
+                "uid": {<br>
+                    "href": "http://fillthegaps.xyz/jsonapi/user/sifhufhi/0a447172-6a3a-4a74-8ae6-aec0955b8f40?resourceVersion=id%3A1"<br>
+                }<br>
+            }<br>
+        }<br>
+    }<br>
+}<br>
+The "id" is required. Add the attributes that should be updated.<br>

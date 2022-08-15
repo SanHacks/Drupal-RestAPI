@@ -4,30 +4,12 @@ This is an example of REST API implementation on DRUPAL.
 
 
 <h3>Setting Up the Module</h3>
-First, setup a new custom Drupal module – See Creating Custom Modules more detail instructions on how to do this.
-
-Let’s create a module name Sounds REST API. To do so, create a new directory in/modules/custom/ named Sounds_Rest_Api and add an info file for the module.
-
-Example: Sounds_rest_api.info.yml
-
-name: Sounds REST API
-description: Define's a custom REST Resource
-package: Custom
-type: module
-core: 9.x
-Once that is all in place, you should be able to enable your new module in the Drupal Admin.
-
-
-<h3>Creating the Resource Plugins</h3>
-In order to create a custom REST service, you will need to become acquainted with Plugins. Plugins are small pieces of functionality that are swappable. Plugins that perform similar functionality are of the same plugin type. In the case of our custom resource, we need to extend the ResourceBase plugin, which can be found here
-
-In order to implement a ResourceBase plugin in o-ur REST module, create a new fileSoundsResource.php in /src/Plugin/rest/resource/ directory of the Sounds REST API module and add the following:
-Route parameters
-The paths defined in the plugin's annotation can use placeholders the same way that routes do, whose values will be passed to the get() method if it has parameters whose names match the placeholders.
-
-The request, route, and route match objects can also be passed to the get() method by typehinting them, the same way as controller callbacks.
-
-Configuration
-If you are using the REST UI contrib module, you should now be able to see it in the list of available endpoints and you should be able to configure the GET method.
-
-You can also manually import the configuration – See REST Web Services overview for detailed instructions on how to configure REST services.
+First, setup a new The JSON:API Module.
+![1](https://user-images.githubusercontent.com/13138647/184642268-75415e6d-5421-401d-96c5-f607479d42ac.PNG)
+![3](https://user-images.githubusercontent.com/13138647/184642348-a49923e0-1e55-435a-b36a-1cd2a98c63da.PNG)
+![4](https://user-images.githubusercontent.com/13138647/184642428-edaf5cf5-21bd-4b5f-9380-86db6527e390.PNG)
+![5](https://user-images.githubusercontent.com/13138647/184642476-d7b41438-2d0d-48f1-b7b3-b2804a4024ce.PNG)
+![Creating Content Type](https://user-images.githubusercontent.com/13138647/184642542-bd4cdf0e-0ec3-4ff7-a9a8-d875b4b278a2.PNG)
+![Product](https://user-images.githubusercontent.com/13138647/184642566-8f0ed3ae-da68-4b4a-8e21-50ad56aea8fd.PNG)
+![json phones](https://user-images.githubusercontent.com/13138647/184642656-3d9c190d-911c-4e95-8d2a-97fe2d93980e.PNG)
+![REST-response](https://user-images.githubusercontent.com/13138647/184642707-07f2b3c3-f9f0-479b-ade5-e282651c5404.jpg)
